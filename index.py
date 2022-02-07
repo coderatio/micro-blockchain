@@ -3,4 +3,4 @@ from src.blockchain import Blockchain
 
 if __name__ == '__main__':
     blockchain = Blockchain()
-    blockchain.main()
+    blockchain.run()
