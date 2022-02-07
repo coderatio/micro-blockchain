@@ -29,7 +29,7 @@ class Blockchain:
         self.chain.append(Block(height, 1, header.__dict__, 1, transaction).__dict__)
         print(json.dumps(self.chain, indent=4)) # This is to print output on console. You can remove it.
 
-    def main(self):
+    def run(self):
         while True:
             last_block = self.chain[::-1]
             height = last_block[0]['height'] + 1
