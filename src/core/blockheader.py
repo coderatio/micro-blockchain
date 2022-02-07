@@ -1,4 +1,4 @@
-from Blockchain.Backend.util.util import hash256
+from src.util.util import hash256
 
 
 class BlockHeader:
