@@ -1,8 +1,3 @@
-import sys
-
-sys.path.append('/Users/josiahyahaya/Projects/Blockchain/BitcoinBlockchain/Blockchain')
-# Adding path is mainly for running the script. 
-# You can create an index.py and import the class instead
 from src.core.block import Block
 from src.core.blockheader import BlockHeader
 from src.util.util import hash256
